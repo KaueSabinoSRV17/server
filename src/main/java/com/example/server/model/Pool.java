@@ -31,7 +31,6 @@ public class Pool {
     private List<Participant> participants;
 
     @ManyToOne
-    @Column(nullable = true)
     private User owner;
 
     public Pool(String title, String code) {
