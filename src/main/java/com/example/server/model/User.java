@@ -36,7 +36,6 @@ public class User {
     private List<Participant> participatingAt;
 
     @OneToMany
-    @Column(nullable = true)
     private List<Pool> ownPools;
 
     public User(String name, String email, String avatarUrl) {
